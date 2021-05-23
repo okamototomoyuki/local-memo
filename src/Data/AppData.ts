@@ -42,7 +42,6 @@ export default class AppData {
                     page = new Page();
                     Object.assign(page, prevPage);
                     page.text = ""
-                    page.voiceId = "";
                 } else {
                     page = new Page();
                 }
