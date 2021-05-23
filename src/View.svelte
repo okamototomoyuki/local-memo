@@ -84,6 +84,7 @@
 				<textarea
 					type="text"
 					class="text"
+					placeholder="メモを入力してね"
 					bind:this={txtBody}
 					on:focus={onFocusText}
 					on:blur={onBlurText}
