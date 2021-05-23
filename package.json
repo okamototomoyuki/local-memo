@@ -1,0 +1,40 @@
+{
+  "name": "whysiwyg-novel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "cross-env ROLLUP_WATCH= rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "validate": "svelte-check"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/dom-mediacapture-record": "^1.0.7",
+    "@types/wicg-file-system-access": "^2020.9.1",
+    "cross-env": "^7.0.3",
+    "node-sass": "^6.0.0",
+    "rollup": "^2.48.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.32.13",
+    "svelte": "^3.38.2",
+    "svelte-check": "^1.5.4",
+    "svelte-preprocess": "^4.7.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "localforage": "^1.9.0",
+    "nanoid": "^3.1.23",
+    "npm": "^7.13.0",
+    "sirv-cli": "^1.0.11",
+    "vercel": "^22.0.1"
+  }
+}
